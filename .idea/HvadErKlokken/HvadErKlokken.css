@@ -1,0 +1,26 @@
+@font-face {
+    font-family: digital7;
+    src: url("digital7.woff");
+}
+
+#MyClockDisplay {
+    font-family: digital7;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #000000;
+    font-size: 60px;
+    letter-spacing: 7px;
+}
+
+#MyDateDisplay {
+    font-family: digital7;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #2c2c2c;
+    font-size: 35px;
+    letter-spacing: 7px;
+}
